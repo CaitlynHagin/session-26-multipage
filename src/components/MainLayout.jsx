@@ -1,10 +1,11 @@
-import Nav from "./Nav"
+import Nav from "./Nav";
 
 export default function MainLayout(props) {
   return (
     <>
       <Nav />
       {props.children}
+      {/* footer goes here */}
     </>
-  )
+  );
 }
