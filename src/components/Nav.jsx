@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+// ^^^^^^^^^^^^ import!
 
 export default function Nav() {
   return (
@@ -7,9 +8,9 @@ export default function Nav() {
         <Link to={"/"}>Home</Link>
         <Link to={"/about"}>About</Link>
         <Link to={"/bio"}>Bio</Link>
-        <Link>Link</Link>
-        <Link>Link</Link>
+        <Link to={"/contact"}>Contact</Link>
+        {/* <Link to={"/testimonials"}></Link> */}
       </ul>
     </div>
-  )
+  );
 }
