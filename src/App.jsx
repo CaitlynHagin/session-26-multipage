@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import MainLayout from "./components/MainLayout";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
+import Testimonials from "./pages/Testimonials";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/bio" element={<Bio />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-          {/* <Route path="/testimonials" element={<Testimonials />}></Route> */}
+          <Route path="/testimonials" element={<Testimonials />}></Route>
+          <Route path="/gallery" element={<Gallery />}></Route>
+
         </Routes>
       </MainLayout>
     </div>

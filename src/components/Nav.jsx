@@ -9,7 +9,8 @@ export default function Nav() {
         <Link to={"/about"}>About</Link>
         <Link to={"/bio"}>Bio</Link>
         <Link to={"/contact"}>Contact</Link>
-        {/* <Link to={"/testimonials"}></Link> */}
+        <Link to={"/testimonials"}>Testimonials</Link>
+        <Link to={"/gallery"}>Gallery</Link>
       </ul>
     </div>
   );
