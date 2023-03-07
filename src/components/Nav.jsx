@@ -11,6 +11,7 @@ export default function Nav() {
         <Link to={"/contact"}>Contact</Link>
         <Link to={"/testimonials"}>Testimonials</Link>
         <Link to={"/gallery"}>Gallery</Link>
+        <Link to={"questions"}>Questions</Link>
       </ul>
     </div>
   );

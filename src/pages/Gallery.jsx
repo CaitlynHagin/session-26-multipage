@@ -1,4 +1,4 @@
-export default function About() {
+export default function Gallery() {
     return (
       <>
         <h1>Let's add some pictures</h1>

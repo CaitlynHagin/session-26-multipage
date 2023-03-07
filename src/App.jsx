@@ -8,6 +8,7 @@ import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import Testimonials from "./pages/Testimonials";
 import Gallery from "./pages/Gallery";
+import Questions from "./pages/Questions";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/testimonials" element={<Testimonials />}></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
+          <Route path="/questions" element={<Questions />}></Route>
 
         </Routes>
       </MainLayout>
